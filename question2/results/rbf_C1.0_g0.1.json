@@ -1,0 +1,51 @@
+{
+  "parameters": {
+    "kernel": "rbf",
+    "C": 1.0,
+    "gamma": 0.1
+  },
+  "folds": [
+    {
+      "fold": 1,
+      "train_size": 21707,
+      "validation_size": 10854,
+      "correct": 9175,
+      "accuracy": 0.8453104846139672,
+      "fit_status": 0,
+      "iterations": [
+        13236
+      ],
+      "warnings": [],
+      "seconds": 38.276292874943465
+    },
+    {
+      "fold": 2,
+      "train_size": 21707,
+      "validation_size": 10854,
+      "correct": 9206,
+      "accuracy": 0.8481665745347338,
+      "fit_status": 0,
+      "iterations": [
+        12631
+      ],
+      "warnings": [],
+      "seconds": 44.422266375040635
+    },
+    {
+      "fold": 3,
+      "train_size": 21708,
+      "validation_size": 10853,
+      "correct": 9207,
+      "accuracy": 0.8483368653828435,
+      "fit_status": 0,
+      "iterations": [
+        12801
+      ],
+      "warnings": [],
+      "seconds": 41.01849695877172
+    }
+  ],
+  "mean_accuracy": 0.8472713081771815,
+  "std_accuracy": 0.001388253465757069,
+  "seconds": 123.72724291705526
+}

@@ -1,0 +1,35 @@
+{
+  "python": "3.10.9",
+  "sklearn": "1.7.2",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "training_shape": [
+    32561,
+    123
+  ],
+  "training_labels": {
+    "-1.0": 24720,
+    "1.0": 7841
+  },
+  "cv": {
+    "n_splits": 3,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "svc_common": {
+    "tol": 0.001,
+    "shrinking": true,
+    "probability": false,
+    "class_weight": null,
+    "cache_size": 512,
+    "max_iter": -1,
+    "decision_function_shape": "ovr",
+    "break_ties": false,
+    "random_state": null
+  },
+  "preprocessing": "None; supplied binary features converted from CSR to dense storage.",
+  "sha256": {
+    "a9a": "f5d5ffd8d865ff41328e7ee043e4b020816914ff6843ff15b98905ddbedce906",
+    "a9a.t": "1f448a153f0320399a7e40836eb207655b0bde0f21fc941cc472193daa9f5de9"
+  }
+}

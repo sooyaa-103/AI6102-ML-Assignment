@@ -1,0 +1,123 @@
+METADATA {"python": "3.10.9", "sklearn": "1.7.2", "numpy": "2.2.6", "scipy": "1.15.3", "training_shape": [32561, 123], "training_labels": {"-1.0": 24720, "1.0": 7841}, "cv": {"n_splits": 3, "shuffle": true, "random_state": 42}, "svc_common": {"tol": 0.001, "shrinking": true, "probability": false, "class_weight": null, "cache_size": 512, "max_iter": -1, "decision_function_shape": "ovr", "break_ties": false, "random_state": null}, "preprocessing": "None; supplied binary features converted from CSR to dense storage.", "sha256": {"a9a": "f5d5ffd8d865ff41328e7ee043e4b020816914ff6843ff15b98905ddbedce906", "a9a.t": "1f448a153f0320399a7e40836eb207655b0bde0f21fc941cc472193daa9f5de9"}}
+FOLD linear_C0.05_gna 1/3 accuracy=0.84789018
+FOLD linear_C0.1_gna 1/3 accuracy=0.84844297
+FOLD linear_C0.01_gna 1/3 accuracy=0.84448130
+FOLD linear_C0.5_gna 1/3 accuracy=0.84871937
+FOLD linear_C1.0_gna 1/3 accuracy=0.84862723
+FOLD rbf_C0.01_g0.01 1/3 accuracy=0.75916713
+FOLD linear_C0.1_gna 2/3 accuracy=0.84678460
+FOLD linear_C0.05_gna 2/3 accuracy=0.84558688
+FOLD linear_C0.01_gna 2/3 accuracy=0.84309932
+FOLD linear_C0.5_gna 2/3 accuracy=0.84632394
+FOLD linear_C1.0_gna 2/3 accuracy=0.84623180
+FOLD linear_C0.05_gna 3/3 accuracy=0.84658620
+COMPLETE 1 /30 {'kernel': 'linear', 'C': 0.05} 0.8466877521711617
+FOLD linear_C0.1_gna 3/3 accuracy=0.84741546
+COMPLETE 2 /30 {'kernel': 'linear', 'C': 0.1} 0.847547675679048
+FOLD linear_C0.01_gna 3/3 accuracy=0.84372984
+COMPLETE 3 /30 {'kernel': 'linear', 'C': 0.01} 0.843770153241333
+FOLD rbf_C0.01_g0.01 2/3 accuracy=0.75916713
+FOLD linear_C0.5_gna 3/3 accuracy=0.84713904
+COMPLETE 4 /30 {'kernel': 'linear', 'C': 0.5} 0.8473941139684262
+FOLD linear_C1.0_gna 3/3 accuracy=0.84750760
+COMPLETE 5 /30 {'kernel': 'linear', 'C': 1.0} 0.8474555465758119
+FOLD rbf_C0.01_g0.1 1/3 accuracy=0.82034273
+FOLD rbf_C0.01_g0.05 1/3 accuracy=0.81997420
+FOLD rbf_C0.01_g0.01 3/3 accuracy=0.75923708
+COMPLETE 6 /30 {'kernel': 'rbf', 'C': 0.01, 'gamma': 0.01} 0.7591904439861589
+FOLD rbf_C0.05_g0.01 1/3 accuracy=0.83066151
+FOLD rbf_C0.01_g0.5 1/3 accuracy=0.75916713
+FOLD rbf_C0.01_g0.1 2/3 accuracy=0.81978994
+FOLD rbf_C0.01_g0.05 2/3 accuracy=0.81803943
+FOLD rbf_C0.05_g0.05 1/3 accuracy=0.83720287
+FOLD rbf_C0.01_g1.0 1/3 accuracy=0.75916713
+FOLD rbf_C0.05_g0.01 2/3 accuracy=0.83130643
+FOLD rbf_C0.01_g0.5 2/3 accuracy=0.75916713
+FOLD rbf_C0.05_g0.05 2/3 accuracy=0.83830846
+FOLD rbf_C0.01_g0.1 3/3 accuracy=0.81949691
+COMPLETE 7 /30 {'kernel': 'rbf', 'C': 0.01, 'gamma': 0.1} 0.8198765277597597
+FOLD rbf_C0.01_g0.05 3/3 accuracy=0.82133972
+COMPLETE 8 /30 {'kernel': 'rbf', 'C': 0.01, 'gamma': 0.05} 0.8197844524206662
+FOLD rbf_C0.05_g0.01 3/3 accuracy=0.83165945
+COMPLETE 9 /30 {'kernel': 'rbf', 'C': 0.05, 'gamma': 0.01} 0.8312091290292059
+FOLD rbf_C0.05_g0.1 1/3 accuracy=0.83554450
+FOLD rbf_C0.05_g0.05 3/3 accuracy=0.83193587
+COMPLETE 10 /30 {'kernel': 'rbf', 'C': 0.05, 'gamma': 0.05} 0.8358157341646786
+FOLD rbf_C0.01_g0.5 3/3 accuracy=0.75923708
+COMPLETE 11 /30 {'kernel': 'rbf', 'C': 0.01, 'gamma': 0.5} 0.7591904439861589
+FOLD rbf_C0.01_g1.0 2/3 accuracy=0.75916713
+FOLD rbf_C0.05_g0.5 1/3 accuracy=0.78809655
+FOLD rbf_C0.05_g0.1 2/3 accuracy=0.83655795
+FOLD rbf_C0.1_g0.01 1/3 accuracy=0.83858485
+FOLD rbf_C0.1_g0.05 1/3 accuracy=0.84088815
+FOLD rbf_C0.05_g0.1 3/3 accuracy=0.83138303
+COMPLETE 12 /30 {'kernel': 'rbf', 'C': 0.05, 'gamma': 0.1} 0.8344951594812277
+FOLD rbf_C0.05_g1.0 1/3 accuracy=0.75916713
+FOLD rbf_C0.1_g0.01 2/3 accuracy=0.83849272
+FOLD rbf_C0.1_g0.05 2/3 accuracy=0.84088815
+FOLD rbf_C0.05_g0.5 2/3 accuracy=0.79067625
+FOLD rbf_C0.01_g1.0 3/3 accuracy=0.75923708
+COMPLETE 13 /30 {'kernel': 'rbf', 'C': 0.01, 'gamma': 1.0} 0.7591904439861589
+FOLD rbf_C0.1_g0.1 1/3 accuracy=0.84079602
+FOLD rbf_C0.1_g0.01 3/3 accuracy=0.83497650
+COMPLETE 14 /30 {'kernel': 'rbf', 'C': 0.1, 'gamma': 0.01} 0.8373513597599715
+FOLD rbf_C0.1_g0.05 3/3 accuracy=0.83626647
+COMPLETE 15 /30 {'kernel': 'rbf', 'C': 0.1, 'gamma': 0.05} 0.8393475912557613
+FOLD rbf_C0.1_g0.1 2/3 accuracy=0.84024323
+FOLD rbf_C0.05_g0.5 3/3 accuracy=0.79074910
+COMPLETE 16 /30 {'kernel': 'rbf', 'C': 0.05, 'gamma': 0.5} 0.7898406347614283
+FOLD rbf_C0.5_g0.01 1/3 accuracy=0.84420490
+FOLD rbf_C0.1_g0.5 1/3 accuracy=0.80550949
+FOLD rbf_C0.05_g1.0 2/3 accuracy=0.75916713
+FOLD rbf_C0.1_g0.1 3/3 accuracy=0.83635861
+COMPLETE 17 /30 {'kernel': 'rbf', 'C': 0.1, 'gamma': 0.1} 0.8391326195752878
+FOLD rbf_C0.5_g0.05 1/3 accuracy=0.84586328
+FOLD rbf_C0.5_g0.01 2/3 accuracy=0.84411277
+FOLD rbf_C0.5_g0.1 1/3 accuracy=0.84494196
+FOLD rbf_C0.1_g1.0 1/3 accuracy=0.76202322
+FOLD rbf_C0.5_g0.05 2/3 accuracy=0.84595541
+FOLD rbf_C0.1_g0.5 2/3 accuracy=0.80698360
+FOLD rbf_C0.5_g0.01 3/3 accuracy=0.84197918
+COMPLETE 18 /30 {'kernel': 'rbf', 'C': 0.5, 'gamma': 0.01} 0.8434322823897876
+FOLD rbf_C0.5_g0.1 2/3 accuracy=0.84752165
+FOLD rbf_C0.5_g0.05 3/3 accuracy=0.84308486
+COMPLETE 19 /30 {'kernel': 'rbf', 'C': 0.5, 'gamma': 0.05} 0.8449678485615543
+FOLD rbf_C0.05_g1.0 3/3 accuracy=0.75923708
+COMPLETE 20 /30 {'kernel': 'rbf', 'C': 0.05, 'gamma': 1.0} 0.7591904439861589
+FOLD rbf_C0.5_g0.1 3/3 accuracy=0.84667834
+COMPLETE 21 /30 {'kernel': 'rbf', 'C': 0.5, 'gamma': 0.1} 0.8463806485577602
+FOLD rbf_C0.1_g0.5 3/3 accuracy=0.80530729
+COMPLETE 22 /30 {'kernel': 'rbf', 'C': 0.1, 'gamma': 0.5} 0.8059334594708036
+FOLD rbf_C1.0_g0.01 1/3 accuracy=0.84558688
+FOLD rbf_C0.5_g0.5 1/3 accuracy=0.83130643
+FOLD rbf_C1.0_g0.05 1/3 accuracy=0.84678460
+FOLD rbf_C1.0_g0.1 1/3 accuracy=0.84531048
+FOLD rbf_C0.1_g1.0 2/3 accuracy=0.76137829
+FOLD rbf_C1.0_g0.01 2/3 accuracy=0.84586328
+FOLD rbf_C1.0_g0.05 2/3 accuracy=0.84899576
+FOLD rbf_C1.0_g0.1 2/3 accuracy=0.84816657
+FOLD rbf_C0.5_g1.0 1/3 accuracy=0.78911001
+FOLD rbf_C1.0_g0.01 3/3 accuracy=0.84234774
+COMPLETE 23 /30 {'kernel': 'rbf', 'C': 1.0, 'gamma': 0.01} 0.8445992981923087
+FOLD rbf_C1.0_g0.05 3/3 accuracy=0.84630978
+COMPLETE 24 /30 {'kernel': 'rbf', 'C': 1.0, 'gamma': 0.05} 0.8473633778568915
+FOLD rbf_C1.0_g0.1 3/3 accuracy=0.84833687
+COMPLETE 25 /30 {'kernel': 'rbf', 'C': 1.0, 'gamma': 0.1} 0.8472713081771815
+FOLD rbf_C0.5_g0.5 2/3 accuracy=0.83112217
+FOLD rbf_C0.1_g1.0 3/3 accuracy=0.76209343
+COMPLETE 26 /30 {'kernel': 'rbf', 'C': 0.1, 'gamma': 1.0} 0.7618316471172037
+FOLD rbf_C0.5_g1.0 2/3 accuracy=0.78920214
+FOLD rbf_C1.0_g0.5 1/3 accuracy=0.83480744
+FOLD rbf_C0.5_g0.5 3/3 accuracy=0.83341012
+COMPLETE 27 /30 {'kernel': 'rbf', 'C': 0.5, 'gamma': 0.5} 0.8319462382567723
+FOLD rbf_C1.0_g1.0 1/3 accuracy=0.79952091
+FOLD rbf_C0.5_g1.0 3/3 accuracy=0.79056482
+COMPLETE 28 /30 {'kernel': 'rbf', 'C': 0.5, 'gamma': 1.0} 0.7896256545918797
+FOLD rbf_C1.0_g0.5 2/3 accuracy=0.83499171
+FOLD rbf_C1.0_g1.0 2/3 accuracy=0.79933665
+FOLD rbf_C1.0_g1.0 3/3 accuracy=0.80033171
+COMPLETE 29 /30 {'kernel': 'rbf', 'C': 1.0, 'gamma': 1.0} 0.7997297565169683
+FOLD rbf_C1.0_g0.5 3/3 accuracy=0.83801714
+COMPLETE 30 /30 {'kernel': 'rbf', 'C': 1.0, 'gamma': 0.5} 0.8359387635015699
+SELECTED {'kernel': 'linear', 'C': 0.1}
+FINAL {"parameters": {"kernel": "linear", "C": 0.1}, "cv_accuracy": 0.847547675679048, "test_shape": [16281, 123], "correct": 13841, "total": 16281, "test_accuracy": 0.8501320557705301, "confusion_matrix": [[11579, 856], [1584, 2262]], "confusion_matrix_label_order": [-1, 1], "fit_status": 0, "iterations": [19709], "seconds": 15.885965458117425}

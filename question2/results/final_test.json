@@ -1,0 +1,33 @@
+{
+  "parameters": {
+    "kernel": "linear",
+    "C": 0.1
+  },
+  "cv_accuracy": 0.847547675679048,
+  "test_shape": [
+    16281,
+    123
+  ],
+  "correct": 13841,
+  "total": 16281,
+  "test_accuracy": 0.8501320557705301,
+  "confusion_matrix": [
+    [
+      11579,
+      856
+    ],
+    [
+      1584,
+      2262
+    ]
+  ],
+  "confusion_matrix_label_order": [
+    -1,
+    1
+  ],
+  "fit_status": 0,
+  "iterations": [
+    19709
+  ],
+  "seconds": 15.885965458117425
+}

@@ -1,0 +1,33 @@
+# Local Python environments and caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local data are downloaded from LIBSVM
+question2/data/
+*.download
+
+# Operating-system and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# Temporary/rendering and LaTeX build products
+tmp/
+*.aux
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# The original experiment.log is intentionally tracked.
